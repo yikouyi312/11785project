@@ -4,6 +4,7 @@
 
 # model
 .pt
+*.pt
 
 # Session Data files
 .RData
