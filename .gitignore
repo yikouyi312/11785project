@@ -2,6 +2,9 @@
 .Rhistory
 .Rapp.history
 
+# model
+.pt
+
 # Session Data files
 .RData
 
