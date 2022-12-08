@@ -41,12 +41,11 @@ def parse_args():
 
     return parser.parse_args()
 
-class stepone:
+class run:
   def __init__(self, args):
     """Main function."""
     #args = parse_args()
-    model_name = 'stylegan2_ada'
-
+    model_name = args.model_name
     dataset_path = './training_runs/dataset'
 
     output_dir = os.path.join(dataset_path, args.dataset_name)

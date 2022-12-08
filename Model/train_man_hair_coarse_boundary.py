@@ -35,7 +35,7 @@ def parse_args():
     return parser.parse_args()
 
 
-class steptwo_man_hair:
+class run:
   def __init__(self, args):
     logger = setup_logger(args.output_dir, logger_name='boundary training man hair')
 

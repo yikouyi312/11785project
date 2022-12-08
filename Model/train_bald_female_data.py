@@ -45,7 +45,7 @@ def parse_args():
                         action="store_true")
     return parser.parse_args()
 
-class stepsix:
+class run:
   def __init__(self, args):
 #def main():
     """Main function."""
