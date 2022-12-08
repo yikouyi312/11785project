@@ -57,6 +57,8 @@ tags
 *.txt
 *.RDS
 *.rds
+*.jpg
+*.png
 
 # map files
 *.shx
