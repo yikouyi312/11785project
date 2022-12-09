@@ -2,9 +2,29 @@
 
 
 ## Table of contents
-* [Data Preparation](#Data Preparation)
-* [Boundary Training](#Boundary Training)
-* [Male hair remove](#Male hair remove)
-* [Initial Model Training](#Initial Model Training)
-* [Female hair remove](#Female hair remove)
-* [Final Model Training](#Final Model Training)
+* [Data Preparation](#Data_Preparation)
+* [Boundary Training](#Boundary_Training)
+* [Male hair remove](#Male_hair_remove)
+* [Initial Model Training](#Initial_Model_Training)
+* [Female hair remove](#Female_hair_remove)
+* [Final Model Training](#Final_Model_Training)
+
+
+# Data Preparation 
+
+
+
+# Boundary Training
+
+
+
+
+# Male hair remove
+
+
+
+# Initial Model Training
+
+# Female hair remove
+
+# Final Model Training
