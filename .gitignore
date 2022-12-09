@@ -5,6 +5,7 @@
 # model
 .pt
 *.pt
+*.npy
 
 # Session Data files
 .RData
