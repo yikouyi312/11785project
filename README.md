@@ -13,7 +13,14 @@ Hair-Removal Network based on StyleGAN
 
 
 ## Data Preparation 
+dataset in ./training_runs/dataset, select 5%-10% data from HHFQ 1024 x 1024
 
+create files to ./training_runs/dataset/{args.dataset_name}
+- wp.npy, w.npy, z.npy, hair_scores.npy and gender_scores.npy
+     - hair_scores, 1: not bald, 0: bald 
+     - gender_score, 1: male, 0: female 
+     - D0: without noise
+     - Dnoise: add noise
 
 
 ## Boundary Training
