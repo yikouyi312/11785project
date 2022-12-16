@@ -12,6 +12,7 @@ Detail implementation in Train.ipynb
 * [Initial Model Training](#Initial_Model_Training)
 * [Female hair remove](#Female_hair_remove)
 * [Final Model Training](#Final_Model_Training)
+* [Test](#Test)
 
 
 ## Data Preparation 
@@ -38,3 +39,5 @@ Apply the separation boundary training algorithm in InterFaceGAN to train two se
 ## Female hair remove
 
 ## Final Model Training
+
+## Test
