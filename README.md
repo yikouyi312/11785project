@@ -65,7 +65,9 @@ See 3.2.5 Female Hair Removal and Training
 
 
 ## Final Model Training
-
+3.2.5 Female Hair Removal and Training, training the final
+HairMapper $M$ on $H$ by the same procedure in
+section 3.2.4.
 ## Test
 To begin real picture editing, we utilize the e4e encoder to encode the real image and obtain its latent
 code. The latent code is then fed to M, and the resulting latent code and image are obtained. Finally,
