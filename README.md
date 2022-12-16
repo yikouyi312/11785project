@@ -61,9 +61,8 @@ See 3.2.4 Male Hair Removal and Training, composing pairs of male latent codes $
      - Save some result in logs.
 
 ## Female hair remove
-See 3.2.5 Female Hair Removal and Training
-
 
 ## Final Model Training
 
 ## Test
+To begin real picture editing, we utilize the e4e encoder to encode the real image and obtain its latent code. The latent code is then fed to M, and the resulting latent code and image are obtained. Finally, we use Poisson editing to mix the generated image with the original face to get final result.
