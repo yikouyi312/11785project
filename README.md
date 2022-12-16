@@ -1,6 +1,8 @@
 ## 11-785 Final Project
 
-Hair-Removal Network based on StyleGAN
+Hair-Removal Network based on StyleGAN.
+
+Detail implementation in Train.ipnyb
 
 
 ### Table of contents
