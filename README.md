@@ -13,6 +13,7 @@ Detail implementation in Train.ipynb
 * [Female hair remove](#Female_hair_remove)
 * [Final Model Training](#Final_Model_Training)
 * [Test](#Test)
+* [Conclusion](#Conclusion)
 
 
 ## Data Preparation 
