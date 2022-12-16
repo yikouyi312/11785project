@@ -57,11 +57,8 @@ See 3.2.4 Male Hair Removal and Training, composing pairs of male latent codes $
           - val.txt
           - test.txt
 3. traine network $M_m$.
-
-
-
-Train model for man
-
+     - Save the best model in checkpoint.
+     - Save some result in logs.
 
 ## Female hair remove
 
