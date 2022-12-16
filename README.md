@@ -44,6 +44,9 @@ loss function $\mathcal{L}_{dif}$ obtain $\hat{w}^{*+}_m$
 Training bald male data using hair boundary, latent_space_type = 'wp'
 
      create files in './training_runs/male_training'
+     - mask: save hair_mask (including hat) 
+     - res_wp_codes, 
+     - res_img: viz_result(image after synthesis and diffusion)
 
 ## Initial Model Training
 See 3.2.4 Male Hair Removal and Training, 
