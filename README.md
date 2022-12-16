@@ -83,11 +83,10 @@ clean textual of face without hair can use little geometry change to reconstruct
 picture.
 
 
-**Limitation:** Some portraits that cannot be precisely by having similar color with background. The
-example is the girl with pink and purple hair which is really similar with pink and
+**Limitation:** Some portraits that cannot be precisely by having similar color with background. For example,
+in a picture, a girl with pink and purple hair which is really similar with pink and
 purple flower in background. Therefore some part of hair mask not be detected rather than deal with
-background. Shadow removal is not be considered. As showed in Figure 8, the shadow caused by
-hair below the left ear is not removal. Besides, the shadow is still keep in output image
+background. Shadow removal is also not be considered. The shadow caused by hair in some figure is not removal.
 
 **Future work:** Improving the StyleGAN encoder or applying an additional diffusion method to
 improve portraits. Increase details in the supplementary should be satisfied in the additional diffusion
