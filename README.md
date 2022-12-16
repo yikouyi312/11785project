@@ -2,7 +2,7 @@
 
 Hair-Removal Network based on StyleGAN.
 
-Detail implementation in Train.ipnyb
+Detail implementation in Train.ipynb
 
 
 ### Table of contents
