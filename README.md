@@ -38,10 +38,16 @@ Apply the separation boundary training algorithm in InterFaceGAN to train two se
 - Option two: Use the pretrained hair separation boundary
 
 ## Male hair remove
+See 3.2.4 Male Hair Removal and Training, equation (1) and (2), and optimize the latent code by minimizing the full
+loss function $\mathcal{L}_{dif}$ obtain $\hat{w}^{*+}_m$
 
+Training bald male data using hair boundary, latent_space_type = 'wp'
 
+     create files in './training_runs/male_training'
 
 ## Initial Model Training
+See 3.2.4 Male Hair Removal and Training, 
+
 
 ## Female hair remove
 
