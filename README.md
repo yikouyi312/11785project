@@ -27,12 +27,15 @@ See Section 3.2.1 Data Preparation and 3.2.2 Classification,
           - hair_scores, 1: not bald, 0: bald 
           - gender_score, 1: male, 0: female 
        
-
-
 ## Boundary Training
+See 3.2.3 Separation Boundary Training
 
 Apply the separation boundary training algorithm in InterFaceGAN to train two separation boundaries in the latent space of StyleGAN2-ada to provide general directions for male hair removal and gender transformation.
 
+- Option one: Train male hair separation boundary by InterfaceGAN on $D_0$
+     - need $D_0$ have enough bald male results.
+
+- Option two: Use the pretrained hair separation boundary
 
 ## Male hair remove
 
