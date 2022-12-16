@@ -65,17 +65,15 @@ See 3.2.5 Female Hair Removal and Training
 
 
 ## Final Model Training
-See 3.2.5 Female Hair Removal HairMapper $M$ on $H$ by the same procedure in section 3.2.4
 
 ## Test
+To begin real picture editing, we utilize the e4e encoder to encode the real image and obtain its latent
+code. The latent code is then fed to M, and the resulting latent code and image are obtained. Finally,
+we use Poisson editing to mix the generated image with the original face to get final result.
 
 
 
-
-
-
-
-
+## Conclusion
 **Application:** Hair removal methods have two main applications. The first is digit hair design which
 is after success hair removal, digit hair design will be easy, as new hair template can directly apply to
 the result image. The second is single view face reconstruction which means hair removal provides
