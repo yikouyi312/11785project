@@ -61,6 +61,7 @@ See 3.2.4 Male Hair Removal and Training, composing pairs of male latent codes $
      - Save some result in logs.
 
 ## Female hair remove
+See 3.2.5 Female Hair Removal and Training, equation (13), (14), (15) and same diffusion method in Male hair remove
 
 ## Final Model Training
 
