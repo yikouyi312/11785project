@@ -35,11 +35,11 @@ Apply the separation boundary training algorithm in InterFaceGAN to train two se
 - Option one: Train male hair separation boundary by InterfaceGAN on $D_0$
      - need $D_0$ have enough bald male results.
 
-- Option two: Use the pretrained hair separation boundary
+- Option two: Use the pretrained hair separation boundary.
 
 ## Male hair remove
 See 3.2.4 Male Hair Removal and Training, equation (1) and (2), and optimize the latent code by minimizing the full
-loss function $\mathcal{L}_{dif}$ obtain $\hat{w}^{*+}_m$
+loss function $\mathcal{L}_{dif}$ obtain $\hat{w}^{*+}_m$.
 
 Training bald male data using hair boundary, latent_space_type = 'wp'
 
@@ -68,6 +68,7 @@ See 3.2.5 Female Hair Removal and Training
 3.2.5 Female Hair Removal and Training, training the final
 HairMapper $M$ on $H$ by the same procedure in
 section 3.2.4.
+
 ## Test
 To begin real picture editing, we utilize the e4e encoder to encode the real image and obtain its latent
 code. The latent code is then fed to M, and the resulting latent code and image are obtained. Finally,
@@ -92,6 +93,6 @@ background. Shadow removal is also not be considered. The shadow caused by hair 
 improve portraits. Increase details in the supplementary should be satisfied in the additional diffusion
 or improved encoder. A more precise hair mask can access by a better extractor or handwork, which
 is helpful to improve precise. Besides, a better hair mask detected by human could also be learned to
-improve model performance
+improve model performance.
 
 
