@@ -18,7 +18,7 @@ Detail implementation in Train.ipynb
 ## Data Preparation 
 See Section 3.2.1 Data Preparation and 3.2.2 Classification, 
 1. sample two $w^+$ latent code set $D_0$ and $D_{noise}$.
-     - take dataset in ./training_runs/dataset, select 5%-10% data from HHFQ 1024 x 1024 (self.num = 2500)
+     - take dataset in ./training_runs/dataset, select 5%-10% data from HHFQ 1024 x 1024 (self.num)
      - create files to ./training_runs/dataset/{args.dataset_name}
           - D0: without noise $D_0$
           - Dnoise: add noise $D_{noise}$
