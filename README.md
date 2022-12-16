@@ -61,9 +61,37 @@ See 3.2.4 Male Hair Removal and Training, composing pairs of male latent codes $
      - Save some result in logs.
 
 ## Female hair remove
-See 3.2.5 Female Hair Removal and Training, equation (13), (14), (15) and same diffusion method in Male hair remove
+See 3.2.5 Female Hair Removal and Training
+
 
 ## Final Model Training
 
 ## Test
-To begin real picture editing, we utilize the e4e encoder to encode the real image and obtain its latent code. The latent code is then fed to M, and the resulting latent code and image are obtained. Finally, we use Poisson editing to mix the generated image with the original face to get final result.
+
+
+
+
+
+
+
+
+**Application:** Hair removal methods have two main applications. The first is digit hair design which
+is after success hair removal, digit hair design will be easy, as new hair template can directly apply to
+the result image. The second is single view face reconstruction which means hair removal provides
+clean textual of face without hair can use little geometry change to reconstruct 3d face view by one
+picture.
+
+
+**Limitation:** Some portraits that cannot be precisely by having similar color with background. The
+example is the girl with pink and purple hair which is really similar with pink and
+purple flower in background. Therefore some part of hair mask not be detected rather than deal with
+background. Shadow removal is not be considered. As showed in Figure 8, the shadow caused by
+hair below the left ear is not removal. Besides, the shadow is still keep in output image
+
+**Future work:** Improving the StyleGAN encoder or applying an additional diffusion method to
+improve portraits. Increase details in the supplementary should be satisfied in the additional diffusion
+or improved encoder. A more precise hair mask can access by a better extractor or handwork, which
+is helpful to improve precise. Besides, a better hair mask detected by human could also be learned to
+improve model performance
+
+
