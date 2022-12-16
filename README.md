@@ -65,6 +65,7 @@ See 3.2.5 Female Hair Removal and Training
 
 
 ## Final Model Training
+See 3.2.5 Female Hair Removal HairMapper $M$ on $H$ by the same procedure in section 3.2.4
 
 ## Test
 
