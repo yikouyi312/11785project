@@ -51,10 +51,14 @@ Training bald male data using hair boundary, latent_space_type = 'wp'
 ## Initial Model Training
 See 3.2.4 Male Hair Removal and Training, composing pairs of male latent codes $w^+_m$ and $\hat{w}^+_m$ to construct dataset $H_m$ and training a fully connected network $M_m$.
 
-Create files to ./training_runs/{args.mapper_name}/data
-     - train.txt
-     - val.txt
-     - test.txt
+1. construct dataset $H_m$
+     - Create files to ./training_runs/{args.mapper_name}/data
+          - train.txt
+          - val.txt
+          - test.txt
+3. traine network $M_m$.
+
+
 
 Train model for man
 
